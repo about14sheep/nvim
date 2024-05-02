@@ -9,4 +9,6 @@ end)
 require('lspconfig').tsserver.setup({})
 require('lspconfig').eslint.setup({})
 require('lspconfig').clangd.setup({})
+
 vim.keymap.set('n', '<leader>p', ":lua vim.lsp.buf.format()<cr>", { desc = "format document []"})
+
