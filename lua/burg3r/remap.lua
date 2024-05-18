@@ -4,5 +4,5 @@ vim.keymap.set('n', '<leader>n', ':set relativenumber! <cr>', { desc = "toggle s
 vim.keymap.set('n', '<leader>w', ':wincmd v <cr>', { desc = "split window" })
 vim.keymap.set('n', '<leader>a', ':wincmd h <cr>', { desc = "move cursor to left window" })
 vim.keymap.set('n', '<leader>d', ':wincmd l <cr>', { desc = "move cursor to right window" })
-vim.keymap.set('n', '<leader>q', ':bprev <cr>', { desc = "move to previous buffer" })
-vim.keymap.set('n', '<leader>e', ':bnext <cr>', { desc = "move to next buffer" })
+vim.keymap.set('n', '<C-q>', ':bprev <cr>', { desc = "move to previous buffer" })
+vim.keymap.set('n', '<C-e>', ':bnext <cr>', { desc = "move to next buffer" })
