@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
   
   use "rebelot/kanagawa.nvim"
   use 'f-person/git-blame.nvim'
-  use 'folke/which-key.nvim'
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
   use {
